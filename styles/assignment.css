@@ -1,0 +1,368 @@
+/* font */
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/* shared style */
+.secondary-bg{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    width: 1280px;
+    height: 560px;
+}
+
+
+
+
+.btn-primary{
+    background-color: #006A50;
+    font-weight: semibold;
+    font-size: 18px;
+    color: white;
+    padding:14px 30px ;
+    border-radius: 5px;
+}
+/* banner styles */
+body{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 117px 598.01px 117px 59.9px;
+    
+    
+}
+.banner-content{
+    max-width: 622px;
+}
+.banner-sub-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: medium;
+    font-weight: 24;
+}
+.banner-title{
+    color: black;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 0%;
+    width: 622px;
+    
+}
+.banner-pro-pic{
+    width: 474.03px;
+    height: 400px;
+
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* skills section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill-description{
+    color: rgba(14, 14, 14, 0.7);
+}
+.skill-title{
+    color: rgba(14, 14, 14, 0.8);
+}
+.skill{
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* vision start */
+.vision-container{
+    display: flex;
+    gap: 24px;
+}
+.visions{
+    padding: 32px 120px 32px 97px;
+}
+
+.vision-1{
+    background-color: #81B4FC;
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+}
+.vision-2{
+    background-color: #C6E4D6;
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;   
+}
+.vision-3{
+    background-color: #F7EBCF;
+    width: 410px;
+    height: 325px;    
+    border-radius: 16px;
+    
+}
+.vision-description-1{
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-description-2{
+    color-scheme: rgba(14, 14, 14, 0.7) ;
+}
+.vision-description-3{
+    color-scheme: rgba(14, 14, 14, 0.7) ;
+}
+.btn-sec{
+    align-items: center;
+    background-color: #5490F5;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: white;   
+}
+.btn-third{
+    background-color: #09A15C;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.btn-four{
+    background-color: #FFC239;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+}
+/* news */
+.satelight-pic{
+    width: 408px;
+    height: 306px;
+}
+/* .satelight-pic{
+    display: flex;
+} */
+.card-container{
+  display: flex;
+  gap: 24px;
+}
+.card-container-2{
+  display: flex;
+  gap: 24px;
+}
+ 
+.sat-pic{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.satelite-pic{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+/* section{
+  display: flex;
+} */
+
+/* donate style */
+.section-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.section-description{
+  font-size: 16px;
+  color: #0E0E0E;
+}
+.donate{
+  /* padding: 100px 130px; */
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+/* main styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.taka-container{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  
+}
+.section-description{
+  margin-bottom: 0;
+}
+.taka-description{
+  text-align: center;
+  padding: 30px;
+  background-color: #F7EBCF;
+  border-radius: 16px;
+  width: 240;
+  height: 120;
+  padding: 40 40;
+  margin: 10px;
+  
+}
+.taka-description-2{
+  text-align: center;
+  padding: 30px;
+  background-color:#C6E4D6 ;
+  border-radius: 16px;
+  width: 240;
+  height: 120;
+  padding: 40 40;
+  margin: 10px;
+}
+input[type="text"]{
+  height: 64;
+  width: 100%;
+  background-color: aliceblue;
+  display: block;
+  padding: 20px 120px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.btn-five{
+  background-color: #09A15C;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 80 100;
+}
+
+  
+ .learn{
+ 
+  display: flex;
+  justify-content: center;
+
+}
+ /* .taka-container{
+  justify-content: center;
+}  */
+
+
+
+
+
